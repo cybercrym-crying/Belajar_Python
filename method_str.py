@@ -59,3 +59,7 @@ tengah = "tengah".center(10, "s")
 print("'" + tengah + "'")
 tengah = tengah.strip("s")  # menghilangkan sebuah karakter
 print(tengah)
+
+perubahan = "cita cita saya jadi pilot"
+print(perubahan)
+print(perubahan.replace("pilot", "cybersecurity"))
