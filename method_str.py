@@ -60,6 +60,7 @@ print("'" + tengah + "'")
 tengah = tengah.strip("s")  # menghilangkan sebuah karakter
 print(tengah)
 
+# syntax yang melakukan penimpaan pada sebuah str dengan str baru .replace()
 perubahan = "cita cita saya jadi pilot"
 print(perubahan)
 print(perubahan.replace("pilot", "cybersecurity"))
