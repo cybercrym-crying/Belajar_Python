@@ -64,3 +64,8 @@ print(tengah)
 perubahan = "cita cita saya jadi pilot"
 print(perubahan)
 print(perubahan.replace("pilot", "cybersecurity"))
+
+# merubah str menjadi bytes
+var = "makan"
+print ("sebelum : ", var)
+print ("sesudah : ", var.encode(encoding="utf-8", errors="strict"))
