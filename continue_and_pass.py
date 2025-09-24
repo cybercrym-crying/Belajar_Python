@@ -1,4 +1,4 @@
-# continue , pass , break
+# continue , pass
 
 # pass -> berfungsi sebagai dummy
 
@@ -12,7 +12,7 @@ while angka <= 4:
     print(angka)
 
 
-# continue -> akan melewati code setelahnya
+# continue -> akan melewati code setelahnya namun perulangan tetap berlanjut
 i = 1
 for i in range(5):
     if i == 3:

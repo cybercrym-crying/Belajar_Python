@@ -1,2 +1,2 @@
 # Belajar_Python
-Repository Pembelajaran Python 
+Repository Pembelajaran Python
