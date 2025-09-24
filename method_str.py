@@ -1,5 +1,3 @@
-# merubah case dari str
-
 
 # merubah semua ke upper case
 
@@ -62,12 +60,12 @@ print("'" + tengah + "'")
 tengah = tengah.strip("s")  # menghilangkan sebuah karakter
 print(tengah)
 
-# melakukan penimpaan str pada str yang di pilih .replace()
+# syntax yang melakukan penimpaan pada sebuah str dengan str baru .replace()
 perubahan = "cita cita saya jadi pilot"
-print("sebelum : ", perubahan)
-print("sesudah : ", perubahan.replace("pilot", "cybersecurity"))
+print(perubahan)
+print(perubahan.replace("pilot", "cybersecurity"))
 
-# merubah tipe data str menjadi bytes
+# merubah str menjadi bytes
 var = "makan"
-print("sebelum : ", var)
-print("sesudah : ", var.encode())
+print ("sebelum : ", var)
+print ("sesudah : ", var.encode(encoding="utf-8", errors="strict"))
